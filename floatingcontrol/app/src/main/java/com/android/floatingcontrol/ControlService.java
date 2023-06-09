@@ -101,8 +101,10 @@ public class ControlService extends AccessibilityService {
         Display display = windowManager.getDefaultDisplay();
         Log.d(TAG, "width-display :" + display.getWidth());
         Log.d(TAG, "heigth-display :" + display.getHeight());
-        layoutParams.width = display.getWidth() / 10;
-        layoutParams.height = display.getHeight() / 8;
+//        layoutParams.width = display.getWidth() / 10;
+//        layoutParams.height = display.getHeight() / 8;
+        layoutParams.width = 200;
+        layoutParams.height = 200;
         showControlWindow();
     }
 
